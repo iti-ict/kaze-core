@@ -1,7 +1,7 @@
 {
-  "name": "workspace",
+  "name": "kaze-core",
   "version": "0.3.0",
-  "description": "SaaSDK Workspace management library",
+  "description": "SaaSDK Core management library",
   "main": "build/src/index.js",
   "scripts": {
     "build": "taskr build",
@@ -50,7 +50,7 @@
     "ncp": "^2.0.0",
     "read": "^1.0.7",
     "request": "^2.81.0",
-    "runtime": "git+ssh://git@gitlab.iti.upv.es:saasdk/libs/runtime.git#radiatus",
+    "kaze-runtime": "git+https://git@github.com/iti-ict/kaze-runtime.git#master",
     "uuid": "^3.2.1"
   }
 }
